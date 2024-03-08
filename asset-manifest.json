@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cbre/static/css/main.8424f06c.css",
+    "main.js": "/cbre/static/js/main.684bc745.js",
+    "index.html": "/cbre/index.html",
+    "main.8424f06c.css.map": "/cbre/static/css/main.8424f06c.css.map",
+    "main.684bc745.js.map": "/cbre/static/js/main.684bc745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8424f06c.css",
+    "static/js/main.684bc745.js"
+  ]
+}
