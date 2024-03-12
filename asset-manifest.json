@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cbre/static/css/main.ec82a05e.css",
-    "main.js": "/cbre/static/js/main.23171426.js",
+    "main.js": "/cbre/static/js/main.510e286a.js",
     "index.html": "/cbre/index.html",
     "main.ec82a05e.css.map": "/cbre/static/css/main.ec82a05e.css.map",
-    "main.23171426.js.map": "/cbre/static/js/main.23171426.js.map"
+    "main.510e286a.js.map": "/cbre/static/js/main.510e286a.js.map"
   },
   "entrypoints": [
     "static/css/main.ec82a05e.css",
-    "static/js/main.23171426.js"
+    "static/js/main.510e286a.js"
   ]
 }
