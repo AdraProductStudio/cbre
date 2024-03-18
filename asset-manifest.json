@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cbre/static/css/main.ec82a05e.css",
-    "main.js": "/cbre/static/js/main.1b9b4cde.js",
+    "main.css": "/cbre/static/css/main.7a1e644f.css",
+    "main.js": "/cbre/static/js/main.03f146e2.js",
     "index.html": "/cbre/index.html",
-    "main.ec82a05e.css.map": "/cbre/static/css/main.ec82a05e.css.map",
-    "main.1b9b4cde.js.map": "/cbre/static/js/main.1b9b4cde.js.map"
+    "main.7a1e644f.css.map": "/cbre/static/css/main.7a1e644f.css.map",
+    "main.03f146e2.js.map": "/cbre/static/js/main.03f146e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec82a05e.css",
-    "static/js/main.1b9b4cde.js"
+    "static/css/main.7a1e644f.css",
+    "static/js/main.03f146e2.js"
   ]
 }
