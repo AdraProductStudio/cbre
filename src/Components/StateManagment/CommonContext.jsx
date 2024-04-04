@@ -62,7 +62,7 @@ export const DataProvider = ({ children }) => {
                   if (response.data.error_code === 200) {
                       localStorage.setItem("initialToken", response.data.data.access_token);
                       getGroupDetails(response.data.data.access_token)
-                      navigate("/project/portfolio")
+                      navigate("/home/portfolio")
                       setLoading(false)
                       
 

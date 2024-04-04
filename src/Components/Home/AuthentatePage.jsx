@@ -17,7 +17,7 @@ const AuthentatePage = () => {
         <div className="container-fluid">
           <div className="row">
             <Sidebar />
-            {/* <Toaster /> */}
+            <Toaster />
             <div className="col p-0 overflow-auto">
               <Header />
               <div className="main-content-height overflow-auto px-3 pt-4"> 
