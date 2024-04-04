@@ -42,7 +42,7 @@ const Header = () => {
 
   return (
     <div className="header-component">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light header-nav-tag py-2">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light header-nav-tag py-2 ">
         <div className="container-fluid px-3">
           <a className="navbar-brand" href="#">
             {selectedTab}

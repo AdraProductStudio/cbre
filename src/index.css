@@ -101,3 +101,14 @@ a.nav-link.active {
 .responsive-main-content-width{
   width: calc(100% - var(--sidebar-width));
 }
+.matsuriAi-searchBar {
+  position: relative;
+  cursor: pointer;
+}
+
+.matsuriAi-send-icon {
+  position: absolute;
+  top: .1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+}
