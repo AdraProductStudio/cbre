@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cbre/static/css/main.d09202ce.css",
+    "main.js": "/cbre/static/js/main.31a1c26a.js",
+    "static/js/453.fc58dd71.chunk.js": "/cbre/static/js/453.fc58dd71.chunk.js",
+    "index.html": "/cbre/index.html",
+    "main.d09202ce.css.map": "/cbre/static/css/main.d09202ce.css.map",
+    "main.31a1c26a.js.map": "/cbre/static/js/main.31a1c26a.js.map",
+    "453.fc58dd71.chunk.js.map": "/cbre/static/js/453.fc58dd71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d09202ce.css",
+    "static/js/main.31a1c26a.js"
+  ]
+}
