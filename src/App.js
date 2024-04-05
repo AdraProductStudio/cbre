@@ -9,7 +9,7 @@ import MatsuriAi from "./Components/OtherPages/MAtsuriAi";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <DataProvider>
         <Routes>
           <Route path="/" element={<LoginPage />} />
