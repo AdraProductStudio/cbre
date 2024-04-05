@@ -6,6 +6,7 @@ import PowerBIPortfolioReports from "./Components/PowerBiPages/PowerBIPortfolioR
 import PowerBIAnalysisReports from "./Components/PowerBiPages/PowerBIAnalysisReports";
 import PowerBIDiveDeepReports from "./Components/PowerBiPages/PowerBIDiveDeepReports";
 import MatsuriAi from "./Components/OtherPages/MAtsuriAi";
+import Error404 from "./Components/OtherPages/Error404";
 
 function App() {
   return (
@@ -14,12 +15,15 @@ function App() {
         <Routes>
           <Route path="/" element={<LoginPage />} />
 
-          <Route path="/home" element={<AuthentatePage/>}>
-            <Route path="portfolio" element={<PowerBIPortfolioReports/>}/>
-            <Route path="dive-deep" element={<PowerBIDiveDeepReports/>}/>
-            <Route path="analysis" element={<PowerBIAnalysisReports/>}/>
-            <Route path="matsuri-ai" element={<MatsuriAi/>}/>
+          <Route path="/home" element={<AuthentatePage />}>
+            <Route path="portfolio" element={<PowerBIPortfolioReports />} />
+            <Route path="dive-deep" element={<PowerBIDiveDeepReports />} />
+            <Route path="analysis" element={<PowerBIAnalysisReports />} />
+            <Route path="matsuri-ai" element={<MatsuriAi />} />
           </Route>
+
+          <Route path="*" element={<Error404 />} />
+
         </Routes>
       </DataProvider>
     </BrowserRouter>
