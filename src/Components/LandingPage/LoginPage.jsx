@@ -132,7 +132,7 @@ const LoginPage = () => {
                         ) : (
                           <button
                             type="button"
-                            className="btn bg-custom mx-auto d-block  w-100"
+                            className="btn btn-primary mx-auto d-block  w-100"
                             onClick={handleSubmit}
                           >
                             Login

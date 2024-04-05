@@ -30,7 +30,7 @@ const PowerBIDiveDeepReports = () => {
                 }
             }}
 
-            cssClassName={"reportClass h-100"}
+            cssClassName={"reportClass"}
 
             getEmbeddedComponent={(embeddedReport) => {
                 window.report = embeddedReport;

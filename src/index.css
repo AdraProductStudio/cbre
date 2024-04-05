@@ -1,14 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: Poppins, sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
-  --sidebar-width: 16rem;
+  --sidebar-width: 15rem;
   --sidebar-top-logo-height: 15vh;
   --sidebar-middle-logo-height: 75vh;
   --sidebar-bottom-logo-height: 10vh;
@@ -94,21 +92,33 @@ a.nav-link.active {
   height: var(--header-height)!important;
 }
 
+
+
 /* main content height  */
+.reportClass{
+  height: 99%;
+}
 .main-content-height{
   height: calc(100vh - var(--header-height));
 }
 .responsive-main-content-width{
   width: calc(100% - var(--sidebar-width));
 }
+.matsuriAi-searchBar .fieldBar{
+  padding: .7rem;
+}
 .matsuriAi-searchBar {
   position: relative;
   cursor: pointer;
 }
-
 .matsuriAi-send-icon {
   position: absolute;
-  top: .1rem;
+  top: 1.3rem;
   right: 1rem;
   font-size: 1.5rem;
+}
+.table-visibility{
+  visibility: hidden;
+  height: 10%!important;
+  overflow: hidden!important;
 }
